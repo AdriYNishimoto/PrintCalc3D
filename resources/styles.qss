@@ -1,0 +1,120 @@
+/* Main Window & Global */
+QMainWindow, QWidget {
+    background-color: #121212; /* Darker background */
+    color: #ffffff;
+}
+
+/* Labels */
+QLabel {
+    color: #ffffff; /* Pure white text */
+    font-size: 15px; /* Slightly larger */
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500; /* Medium weight */
+}
+
+QLabel#Header {
+    font-size: 26px;
+    font-weight: bold;
+    color: #4caf50;
+    margin-bottom: 12px;
+}
+
+QLabel#SubHeader {
+    font-size: 20px;
+    font-weight: bold;
+    color: #a5d6a7; /* Brighter green */
+    margin-top: 12px;
+}
+
+/* Inputs */
+QLineEdit, QComboBox, QDoubleSpinBox, QSpinBox {
+    background-color: #252525; /* Slightly lighter than bg for contrast */
+    border: 1px solid #404040;
+    border-radius: 4px;
+    padding: 6px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold; /* Bold input text */
+}
+
+QLineEdit:focus, QComboBox:focus, QDoubleSpinBox:focus, QSpinBox:focus {
+    border: 1px solid #4caf50;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #66bb6a;
+}
+
+QPushButton:pressed {
+    background-color: #388e3c;
+}
+
+QPushButton#SecondaryButton {
+    background-color: #424242;
+}
+
+QPushButton#SecondaryButton:hover {
+    background-color: #616161;
+}
+
+/* Table */
+QTableWidget {
+    background-color: #2d2d2d;
+    border: 1px solid #3e3e3e;
+    gridline-color: #3e3e3e;
+    color: #ffffff;
+}
+
+QHeaderView::section {
+    background-color: #333333;
+    padding: 5px;
+    border: 1px solid #3e3e3e;
+    color: #ffffff;
+}
+
+/* Tabs */
+QTabWidget::pane {
+    border: 1px solid #3e3e3e;
+    background-color: #1e1e1e;
+}
+
+QTabBar::tab {
+    background-color: #2d2d2d;
+    color: #b0b0b0;
+    padding: 8px 12px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-right: 2px;
+}
+
+QTabBar::tab:selected {
+    background-color: #1e1e1e;
+    color: #4caf50;
+    border-bottom: 2px solid #4caf50;
+}
+
+/* GroupBox */
+QGroupBox {
+    border: 1px solid #3e3e3e;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #81c784;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 3px;
+}

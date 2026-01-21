@@ -1,0 +1,17 @@
+{
+    "theme": "dark",
+    "printer": {
+        "name": "Default Printer",
+        "power_consumption_w": 350,
+        "monthly_maintenance": 20.0,
+        "printer_price": 2500.0,
+        "lifespan_prints": 2000,
+        "energy_rate": 0.85
+    },
+    "defaults": {
+        "spool_weight_g": 1000,
+        "spool_price": 120.0,
+        "hourly_rate": 30.0,
+        "profit_margin": 50.0
+    }
+}
